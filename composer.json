@@ -7,7 +7,6 @@
 		}
 	},
     "require": {
-		"denis909/db": "dev-master",
-        "yiisoft/yii2": ">=2.0.4"
+		"denis909/db": "dev-master"
     }
 }
