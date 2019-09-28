@@ -110,5 +110,15 @@ class TableModel
 
         return $this->_db->delete($this->tableName, $this->wherePrimaryKey($pk));
     }
+
+    public function findAll($where = null, $params = [], $suffix = null)
+    {
+        return $this->_db->findAll($this->tableName, $where, $params, $suffix);
+    }
+
+    public function findOne($where = null, $params = [], $suffix = '')
+    {
+        return $this->_db->findOne($this->tableName, $where, $params, $suffix);
+    }    
     
 }
