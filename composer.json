@@ -1,5 +1,5 @@
 {
-    "name": "denis909/php-db-model",
+    "name": "denis909/php-db-table-model",
     "license": "MIT",
 	"autoload": {
 		"psr-4": {
