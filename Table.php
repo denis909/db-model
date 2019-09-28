@@ -4,7 +4,7 @@ namespace denis909\db;
 
 use Exception;
 
-class TableModel
+class Table
 {
     
     public $tableName;
