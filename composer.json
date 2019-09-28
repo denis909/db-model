@@ -1,5 +1,5 @@
 {
-    "name": "denis909/db-model",
+    "name": "denis909/php-db-model",
     "license": "MIT",
 	"autoload": {
 		"psr-4": {
@@ -7,6 +7,6 @@
 		}
 	},
     "require": {
-		"denis909/db": "dev-master"
+		"denis909/php-db": "dev-master"
     }
 }
