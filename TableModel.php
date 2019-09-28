@@ -6,12 +6,12 @@ use Exception;
 
 class TableModel
 {
-
-    protected $_db;
-
+    
     public $tableName;
 
     public $primaryKey;
+
+    protected $_db;
 
     public function __construct($db)
     {
@@ -60,11 +60,11 @@ class TableModel
         }
 
         return [$this->primaryKey => $pk];
-    ]
+    }
 
     public function findByPk($pk)
     {
-        return $this->db->findOne($this->tableName, $this->wherePrimaryKey($pk));
+        return $this->_db->findOne($this->tableName, $this->wherePrimaryKey($pk));
     }
 
     public function insert($data)
