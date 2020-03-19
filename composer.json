@@ -3,10 +3,10 @@
     "license": "MIT",
 	"autoload": {
 		"psr-4": {
-			"denis909\\db\\" : ""
+			"Denis909\\Db\\" : ""
 		}
 	},
     "require": {
-		"denis909/php-db": "dev-master"
+		"denis909/php-db": "*"
     }
 }
